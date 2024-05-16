@@ -1,0 +1,133 @@
+.bg-banner {
+  background-color: rgb(8, 20, 64);
+}
+
+.text-banner {
+  font-size: 13px;
+}
+
+.bg-navbar {
+  background-color: rgb(17, 40, 128);
+}
+
+.text-navbar-icon {
+  font-size: 10px;
+}
+
+.magnify {
+  border-top-right-radius: 32px !important;
+  border-bottom-right-radius: 32px !important;
+  border-top-left-radius: 0px !important;
+  border-bottom-left-radius: 0px !important;
+}
+
+.dropdown-product {
+  border-top-left-radius: 32px !important;
+  border-bottom-left-radius: 32px !important;
+}
+
+.input-group-prepend {
+  margin-right: -2px !important;
+}
+
+.input-group-append {
+  margin-left: -6px !important;
+}
+
+.form-control:focus {
+  outline: 0;
+  box-shadow: 0 0 0 0 !important;
+}
+
+.form-control {
+  border-right: 0 !important;
+  border-left: 0 !important;
+}
+
+.dropdown-text {
+  font-size: 12px;
+}
+
+.form-control::placeholder {
+  color: #999;
+  font-size: 12px;
+}
+
+.btn-category {
+  color: rgb(27, 50, 133);
+  border-color: rgb(27, 50, 133);
+  margin: 0 3px;
+}
+
+.btn-category:hover {
+  background-color: rgb(27, 50, 133);
+  border-color: rgb(27, 50, 133);
+  color: white;
+}
+
+.text-card-info {
+  color: #999;
+  font-size: 12px;
+}
+
+.scroll-y {
+  overflow-y: auto;
+}
+
+::-webkit-scrollbar {
+  width: 0px;
+  background: transparent;
+}
+
+@media (max-width: 768px) {
+  .scroll-y {
+    white-space: nowrap;
+    overflow-x: auto;
+  }
+
+  .btn-category {
+    flex: 0 0 auto;
+  }
+}
+
+.input-group-append2 {
+  margin-left: -6px !important;
+}
+
+.bg-blog-img {
+  max-height: 450px;
+  overflow-x: hidden;
+}
+
+ol {
+  margin: 0 0 1.5em;
+  padding: 0;
+  counter-reset: item;
+}
+
+ol > li {
+  margin: 0;
+  padding: 0 0 0 2em;
+  text-indent: -2em;
+  list-style-type: none;
+  counter-increment: item;
+}
+
+ol > li:before {
+  display: inline-block;
+  width: 1.5em;
+  padding-right: 0.5em;
+  font-weight: bold;
+  text-align: right;
+  content: counter(item) ".";
+}
+
+.btn-back {
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  top: 5%;
+  left: 10px;
+  font-weight: bold;
+  z-index: 1000;
+}
